@@ -1064,7 +1064,7 @@ ftp_cached_connect(struct url *url, struct url *purl, const char *flags)
 /*
  * Check the proxy settings
  */
-static struct url *
+struct url *
 ftp_get_proxy(struct url * url, const char *flags)
 {
 	struct url *purl;
